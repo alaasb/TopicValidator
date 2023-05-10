@@ -1,6 +1,9 @@
 # TopicValidator - README
 
 This project implements a topic model validator in .NET Core that validates objects based on specific rules. The solution adheres to the principles of software development, such as SOLID (Single Responsibility Principle), by employing separation of concerns and maintainable code practices.
+Rules:
+1. If topic == A, then name will be “a”and description will be more than 10 and less than 100 chars.
+2. If topic == B, then name will be “x” and description will be less than 40 chars.
 
 ## Design Approach
 
